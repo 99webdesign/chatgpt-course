@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  background: linear-gradient(45deg, #0073e6, #00c4cc);
+  color: white;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #e64a19;
+}
+
+/* Feature Image Section */
+.feature-image-section {
+  margin: 40px 0;
+}
+
+.feature-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Course Description Section */
+.course-description {
+  background-color: #fff;
+  padding: 50px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-description h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.course-description p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.course-description .price {
+  font-size: 1.5rem;
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #0073e6;
+  color: white;
+  padding: 60px 0;
+  margin: 40px 0;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.feature-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.icon-box {
+  background-color: white;
+  color: #333;
+  width: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.icon-box img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.icon-box:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
