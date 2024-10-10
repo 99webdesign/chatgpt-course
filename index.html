@@ -3,74 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChatGPT Class for Beginners | Ritesh Academy</title>
-  <link rel="stylesheet" href="style.css">
+  <title>ChatGPT Class for Beginners</title>
+  <!-- Import Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+      padding: 50px;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .header .cta {
+      margin-top: 20px;
+    }
+
+    .cta-button {
+      background-color: #ff5722;
+      color: white;
+      padding: 15px 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+
+    .features-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .features-section .feature-box {
+      width: 45%;
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .feature-icon {
+      font-size: 2.5em;
+      margin-right: 15px;
+      color: #0072ff;
+    }
+
+    .feature-box h3 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    .feature-box p {
+      margin: 5px 0;
+    }
+
+    .image-section {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
+
   <!-- Header Section -->
-  <header class="header">
-    <div class="container">
-      <h1>ChatGPT Class for Beginners</h1>
-      <p>Master the power of ChatGPT and enhance your skills with AI-driven technology.</p>
-      <a href="https://riteshacademy.com" class="cta-btn">Join Now</a>
+  <div class="header">
+    <h1>ChatGPT Class for Beginners</h1>
+    <p>Master the power of ChatGPT and enhance your skills with AI-driven technology.</p>
+    <div class="cta">
+      <a href="https://riteshacademy.com" target="_blank">
+        <button class="cta-button">Join Now</button>
+      </a>
     </div>
-  </header>
-
-  <!-- Feature Image Section -->
-  <section class="feature-image-section">
-    <div class="container">
-      <img src="feature-image.jpg" alt="ChatGPT Class for Beginners" class="feature-image">
-    </div>
-  </section>
-
-  <!-- Course Description Section -->
-  <section class="course-description">
-    <div class="container">
-      <h2>About the Course</h2>
-      <p>
-        This beginner-friendly ChatGPT course will guide you through the world of AI-driven conversations. Whether you’re looking to improve your communication with AI or explore the exciting potential of ChatGPT, this course is designed for you. With practical exercises, hands-on learning, and expert guidance, you'll quickly build a foundation in ChatGPT, helping you save time, improve productivity, and explore creative AI possibilities.
-      </p>
-      <h3 class="price">Price: ₹15,000 One-time</h3>
-      <a href="https://riteshacademy.com" class="cta-btn">Enroll Now</a>
-    </div>
-  </section>
+  </div>
 
   <!-- Features Section -->
-  <section class="features-section">
-    <div class="container">
-      <h2>What You'll Learn</h2>
+  <div class="container">
+    <div class="features-section">
+      <!-- Feature 1 -->
       <div class="feature-box">
-        <div class="icon-box">
-          <img src="icons/chatbot.png" alt="Chatbot Basics Icon">
-          <p>Chatbot Basics</p>
+        <i class="fa fa-robot feature-icon"></i>
+        <div>
+          <h3>Chatbot Basics</h3>
+          <p>Learn the foundations of chatbot technology and how to apply it in real-life scenarios.</p>
         </div>
-        <div class="icon-box">
-          <img src="icons/ai.png" alt="Understanding AI Icon">
-          <p>Understanding AI</p>
-        </div>
-        <div class="icon-box">
-          <img src="icons/conversation.png" alt="Conversational Skills Icon">
-          <p>Conversational Skills</p>
-        </div>
-        <div class="icon-box">
-          <img src="icons/productivity.png" alt="Boosting Productivity Icon">
-          <p>Boosting Productivity</p>
-        </div>
-        <div class="icon-box">
-          <img src="icons/creative.png" alt="Creative Applications Icon">
-          <p>Creative Applications</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-box">
+        <i class="fa fa-brain feature-icon"></i>
+        <div>
+          <h3>Understanding AI</h3>
+          <p>Get an introduction to artificial intelligence, its applications, and potential.</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="container">
-      <p>© 2024 Ritesh Academy. All rights reserved.</p>
+    <div class="features-section">
+      <!-- Feature 3 -->
+      <div class="feature-box">
+        <i class="fa fa-comments feature-icon"></i>
+        <div>
+          <h3>Conversational Skills</h3>
+          <p>Develop your conversational skills and learn to communicate effectively using AI tools.</p>
+        </div>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="feature-box">
+        <i class="fa fa-lightbulb feature-icon"></i>
+        <div>
+          <h3>Boosting Productivity</h3>
+          <p>Discover how ChatGPT can help boost your productivity in everyday tasks.</p>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
 
-  <script src="script.js"></script>
+  <!-- Feature Image Section -->
+  <div class="image-section">
+    <img src="your-image-url.png" alt="Feature Image">
+  </div>
+
 </body>
 </html>
